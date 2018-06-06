@@ -1,0 +1,14 @@
+body {
+  background-color: #eee;
+}
+
+.container {
+  background-color: #fff;
+  border: 1px solid #777;
+}
+
+#display {
+  height: auto;
+  border: 1px solid #777;
+  padding: 10px;
+}
