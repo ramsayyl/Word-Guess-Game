@@ -17,22 +17,46 @@
         <h1>Hangman</h1>
         <h2>Celebrity Last Names</h2>
       </div>
-        <div id="display">
-      </div>
-      <input id="letter" type="text" name="letter">
-      <button id="submit" type="button" name="submit"></button>
+        <div id="display"></div>
 
 
-      <div class="row">
-        <div class="col-md-6">
-          <div id="record"></div>
-          <div id="guesses"></div>
-        </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Win Total:</h4>
+                  <p id="record" class="card-text"></p>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Hint:</h4>
+                <p id="hint" class="card-text"></p>
+              </div>
+              </div>
+            </div>
+          </div>
 
-        <div class="col-md-6">
-          <div id="hint"></div>
-          <div id="guessTotal"></div>
-        </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Guessed Letters:</h4>
+                  <p id="guesses" class="card-text"></p>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Guesses Remaining:</h4>
+                <p id="guessTotal" class="card-text"></p>
+              </div>
+              </div>
+            </div>
+          </div>
 
       </div>
 
