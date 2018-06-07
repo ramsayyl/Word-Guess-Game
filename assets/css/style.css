@@ -9,6 +9,24 @@ body {
 
 #display {
   height: auto;
-  border: 1px solid #777;
   padding: 10px;
+  font-size: 24px;
+}
+
+.col-md-6 {
+  height: 400px;
+}
+
+#record, #hint, #guesses, #guessTotal {
+  font-size: 20px;
+  padding: 50px 0px 0px 0px;
+  border: 0.5px solid #777;
+  border-radius: 25%;
+  height: 200px;
+  margin: 5px;
+}
+
+img {
+  width: 150px;
+  height: 100px;
 }
